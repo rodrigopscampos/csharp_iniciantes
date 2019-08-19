@@ -20,28 +20,41 @@ namespace Exercicio8
             Console.Write("Número 3: ");
             int c = int.Parse(Console.ReadLine());
 
-            if (a >= b)
+            int maior = a;
+            int menor = a;
+
+            if (a > maior)
             {
-                if (a >= c)
-                {
-                    Console.WriteLine(a);
-                }
-                else
-                {
-                    Console.WriteLine(c);
-                }
+                maior = a;
             }
-            else
+
+            if (b > maior)
             {
-                if (b >= c)
-                {
-                    Console.WriteLine(b);
-                }
-                else
-                {
-                    Console.WriteLine(c);
-                }
+                maior = b;
             }
+
+            if (c > maior)
+            {
+                maior = c;
+            }
+
+            if(a < menor)
+            {
+                menor = a;
+            }
+
+            if(b < menor)
+            {
+                menor = b;
+            }
+
+            if (c < menor)
+            {
+                menor = c;
+            }
+
+            Console.WriteLine("Maior = " + maior);
+            Console.WriteLine("Menor = " + menor);
 
             Console.ReadLine();
         }
