@@ -14,21 +14,21 @@ namespace Exercicio_While_11
             Console.WriteLine("Informe um número:");
             int n = int.Parse(Console.ReadLine());
 
-            while (n != 0)
+            while (n != 0) //Enquanto o número for diferente de zero, faça
             {
-                Console.WriteLine(n);
+                Console.WriteLine(n); //imprima o número
 
-                if (n > 0)
+                if (n > 0) //se o número for maior que zero, significa que é positivo, então, para chegar no zero, deve descer (subtrair)
                 {
                     n--;
                 }
-                else
+                else //se não, significa que ÑÃO é maior que zero, ou seja, é negativo, neste caso precisa subir (somar)
                 {
                     n++;
                 }
             }
 
-            Console.ReadLine();
+            Console.ReadLine(); //apenas para manter o console aberto
         }
     }
 }
