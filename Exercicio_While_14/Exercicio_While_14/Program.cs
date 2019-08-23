@@ -13,14 +13,7 @@ namespace Exercicio_While_14
             //Peça uma quantidade e imprima um texto o tanto de vezes informado
             
             int n;
-            string texto;
-
-            do
-            {
-                Console.Write("Informe um texto (DIFERENTE DE VAZIO): ");
-                texto = Console.ReadLine();
-            }
-            while (texto == "");
+            string texto = "*";
 
             do
             {
@@ -32,6 +25,7 @@ namespace Exercicio_While_14
             while(n > 0)
             {
                 Console.WriteLine(texto);
+                texto = texto + "*";
                 n--;
             }
 
