@@ -11,32 +11,24 @@ namespace Exercicio_For_Escada
         static void Main(string[] args)
         {
             int altura = 10;
-            int comprimentoDegrau = 3;
 
-            for (int v = 1; v <= altura; v++)
+            for (int v = 0; v < altura; v++)
             {
-                int ultimaCasa = comprimentoDegrau * v;
-                for (int h = 1; h <= ultimaCasa; h++)
+                int inicio = v * 3;
+                int fim = inicio + 3;
+
+                for (int h = 0; h < fim; h++)
                 {
-                    if (h >= ultimaCasa - comprimentoDegrau)
+                    if (h >= inicio)
                     {
-                        if(h == ultimaCasa)
-                        {
-                            Console.Write("|");
-                        }
-                        else
-                        {
-                            Console.Write("*");
-                        }
-                        
+                        Console.Write("*");
                         System.Threading.Thread.Sleep(100);
                     }
                     else
                     {
                         Console.Write(" ");
-                    }   
+                    }
                 }
-
                 Console.WriteLine();
             }
 

@@ -4,20 +4,23 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Exercicio_For_TrianguloReto
+namespace Exercicio_For_Retangulo
 {
     class Program
     {
         static void Main(string[] args)
         {
-            int altura = 25;
+            Console.Write("Largura: ");
+            int largura = int.Parse(Console.ReadLine());
 
-            for (int v = 1; v <= altura; v++)
+            Console.Write("Altura: ");
+            int altura = int.Parse(Console.ReadLine());
+
+            for (int v = 0; v < altura; v++)
             {
-                for (int h = 1; h <= v; h++)
+                for (int h = 0; h < largura; h++)
                 {
                     Console.Write("*");
-                    System.Threading.Thread.Sleep(100);
                 }
 
                 Console.WriteLine();
