@@ -24,7 +24,7 @@ namespace Exercicios_For_05
             {
                 for (int cLargura = 0; cLargura < largura; cLargura++)
                 {
-                    Console.Write("#");
+                   
                 }
                 Console.WriteLine();
             }
