@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.329
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercicio_For_Trapezio", "Exercicio_For_Trapezio\Exercicio_For_Trapezio.csproj", "{0A8F586D-9134-40C5-8898-A7F40DF80542}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0A8F586D-9134-40C5-8898-A7F40DF80542}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A8F586D-9134-40C5-8898-A7F40DF80542}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A8F586D-9134-40C5-8898-A7F40DF80542}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A8F586D-9134-40C5-8898-A7F40DF80542}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E25E9358-F401-47FE-B5A3-452528521912}
+	EndGlobalSection
+EndGlobal
